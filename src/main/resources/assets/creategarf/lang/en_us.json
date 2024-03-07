@@ -1,0 +1,13 @@
+{
+  "tab.creategarf.tab": "Create: Garf",
+  "creategarf.gui.overstress_clutch.uncoupled": "Uncoupled",
+  "creategarf.gui.overstress_clutch.uncoupled_explanation": "This clutch is _uncoupled_ due to stress. Fix the network before _resetting_ this clutch with a _wrench_ or a _redstone pulse_.",
+  "block.creategarf.overstress_clutch.tooltip.behaviour1": "_Reset_ to coupled state.",
+  "block.creategarf.overstress_clutch.tooltip.condition1": "When R-Clicked with Wrench",
+  "block.creategarf.overstress_clutch.tooltip.summary": "A clutch that _uncouples_ after a set delay when the network is _overstressed_.",
+  "block.creategarf.overstress_clutch": "Overstress Clutch",
+  "creategarf.overstress_clutch.uncouple_delay": "Uncouple Delay",
+  "block.creategarf.brake": "Brake",
+  "block.creategarf.centrifugal_clutch": "Centrifugal Clutch",
+  "creategarf.centrifugal_clutch.speed_threshold": "Speed Threshold"
+}

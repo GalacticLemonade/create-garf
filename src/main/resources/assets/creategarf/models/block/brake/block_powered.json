@@ -1,0 +1,7 @@
+{
+  "parent": "creategarf:block/brake/block",
+  "textures": {
+    "0": "creategarf:block/brake_on",
+    "particle": "creategarf:block/brake_on"
+  }
+}

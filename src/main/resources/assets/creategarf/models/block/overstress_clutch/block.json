@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/clutch/block",
+  "textures": {
+    "0": "creategarf:block/overstress_clutch_off",
+    "particle": "creategarf:block/overstress_clutch_off"
+  }
+}

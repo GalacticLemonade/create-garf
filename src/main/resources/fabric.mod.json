@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "creategarf",
+	"version": "${version}",
+	"name": "Create: Garf",
+	"description": "Adds some new and interesting blocks to the Create mod.",
+	"authors": [
+		"GalacticLemonade"
+	],
+	"contact": {
+		"homepage": "https://galacticlemon.dev"
+	},
+	"license": "MIT",
+	"icon": "assets/creategarf/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.galacticlemon.creategarf.CreateGarf"
+		],
+		"client": [
+			"dev.galacticlemon.creategarf.CreateGarfClient"
+		],
+		"fabric-datagen": [
+			"dev.galacticlemon.creategarf.CreateGarfDataGenerator"
+		]
+	},
+	"mixins": [
+		"creategarf.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"create": "*",
+		"jei": "*"
+	}
+}

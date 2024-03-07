@@ -1,0 +1,7 @@
+{
+  "parent": "creategarf:block/centrifugal_clutch/block",
+  "textures": {
+    "0": "creategarf:block/centrifugal_clutch_on",
+    "particle": "creategarf:block/centrifugal_clutch_on"
+  }
+}
