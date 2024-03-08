@@ -9,5 +9,7 @@
   "creategarf.overstress_clutch.uncouple_delay": "Uncouple Delay",
   "block.creategarf.brake": "Brake",
   "block.creategarf.centrifugal_clutch": "Centrifugal Clutch",
-  "creategarf.centrifugal_clutch.speed_threshold": "Speed Threshold"
+  "block.creategarf.inverted_centrifugal_clutch": "Inverted Centrifugal Clutch",
+  "creategarf.centrifugal_clutch.speed_threshold": "Speed Threshold",
+  "creategarf.inverted_centrifugal_clutch.speed_threshold": "Speed Threshold"
 }

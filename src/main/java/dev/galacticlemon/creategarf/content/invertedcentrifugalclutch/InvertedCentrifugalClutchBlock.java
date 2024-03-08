@@ -1,11 +1,10 @@
-package dev.galacticlemon.creategarf.content.centrifugalclutch;
+package dev.galacticlemon.creategarf.content.invertedcentrifugalclutch;
 
 import com.simibubi.create.content.kinetics.RotationPropagator;
 import com.simibubi.create.content.kinetics.base.DirectionalKineticBlock;
 import com.simibubi.create.foundation.block.IBE;
 import dev.galacticlemon.creategarf.CreateGarfBlockEntities;
 import dev.galacticlemon.creategarf.content.CGBlockStateProperties;
-import dev.galacticlemon.creategarf.content.centrifugalclutch.CentrifugalClutchBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -20,9 +19,9 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import org.jetbrains.annotations.NotNull;
 
-public class CentrifugalClutchBlock extends DirectionalKineticBlock implements IBE<CentrifugalClutchBlockEntity> {
+public class InvertedCentrifugalClutchBlock extends DirectionalKineticBlock implements IBE<InvertedCentrifugalClutchBlockEntity> {
     public static final BooleanProperty UNCOUPLED = CGBlockStateProperties.UNCOUPLED;
-    public CentrifugalClutchBlock(Properties properties) {
+    public InvertedCentrifugalClutchBlock(Properties properties) {
         super(properties);
         registerDefaultState(defaultBlockState().setValue(UNCOUPLED, false));
     }
@@ -34,13 +33,13 @@ public class CentrifugalClutchBlock extends DirectionalKineticBlock implements I
     }
 
     @Override
-    public Class<CentrifugalClutchBlockEntity> getBlockEntityClass() {
-        return CentrifugalClutchBlockEntity.class;
+    public Class<InvertedCentrifugalClutchBlockEntity> getBlockEntityClass() {
+        return InvertedCentrifugalClutchBlockEntity.class;
     }
 
     @Override
-    public BlockEntityType<? extends CentrifugalClutchBlockEntity> getBlockEntityType() {
-        return CreateGarfBlockEntities.CENTRIFUGAL_CLUTCH.get();
+    public BlockEntityType<? extends InvertedCentrifugalClutchBlockEntity> getBlockEntityType() {
+        return CreateGarfBlockEntities.INVERTED_CENTRIFUGAL_CLUTCH.get();
     }
 
     @Override
@@ -69,7 +68,7 @@ public class CentrifugalClutchBlock extends DirectionalKineticBlock implements I
     @Override
     public void tick(@NotNull BlockState pState, @NotNull ServerLevel pLevel, @NotNull BlockPos pPos, @NotNull RandomSource pRandom) {
         BlockEntity be = pLevel.getBlockEntity(pPos);
-        if (!(be instanceof CentrifugalClutchBlockEntity kte))
+        if (!(be instanceof InvertedCentrifugalClutchBlockEntity kte))
             return;
 
         if (kte.reattachNextTick) {
