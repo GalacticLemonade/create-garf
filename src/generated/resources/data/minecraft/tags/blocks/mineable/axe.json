@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "creategarf:overstress_clutch",
+    "creategarf:brake",
+    "creategarf:centrifugal_clutch",
+    "creategarf:inverted_centrifugal_clutch",
+    "creategarf:freewheel_clutch"
+  ]
+}

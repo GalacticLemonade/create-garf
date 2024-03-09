@@ -1,0 +1,20 @@
+// 1.20.1	2024-03-09T01:04:12.9406185	Create: Garf/Registrate Provider for creategarf [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+9dfb5845e8629392b7140f522548b99ed402c414 assets\creategarf\blockstates\brake.json
+c048a092b89371a36daf962e64067500c94c92b6 assets\creategarf\blockstates\freewheel_clutch.json
+e4f57e31dc2ecaff7b2e7904c22ceb24d63895ef data\creategarf\loot_tables\blocks\centrifugal_clutch.json
+77bfd84b6a97e3c2287bc9de120ee29d53e0227e assets\creategarf\models\item\overstress_clutch.json
+18dfd5a8557291dd5324442aa46763677018ade4 data\minecraft\tags\blocks\mineable\pickaxe.json
+80f8c557ceaf12a6ed75b669ba3861aa5e81340b data\creategarf\loot_tables\blocks\overstress_clutch.json
+d74a1631cd935005c0645072282b3d055794c48a assets\creategarf\lang\en_us.json
+ad9a2cb23a04b5592ec34597d46a4080ff1b0063 data\creategarf\loot_tables\blocks\brake.json
+08dbd4aa61bb2fc62198cea538ba89ff3a64d4e6 data\creategarf\loot_tables\blocks\inverted_centrifugal_clutch.json
+675fa1408088f1f70ec6384f7407e172949ab65e assets\creategarf\blockstates\inverted_centrifugal_clutch.json
+18dfd5a8557291dd5324442aa46763677018ade4 data\minecraft\tags\blocks\mineable\axe.json
+d75c04060afcff442401c05a6974e2607eb2d494 assets\creategarf\models\item\centrifugal_clutch.json
+e517570e89cd74295097d2fcd04d03d93e905ec7 data\creategarf\loot_tables\blocks\freewheel_clutch.json
+95d0738bc613ebd3952e623e98d85a22f42a53b2 assets\creategarf\models\item\freewheel_clutch.json
+9b06030e024ea711db8204842541f3bc7895d9e1 assets\creategarf\models\item\brake.json
+09adf7cbfc1a7cb01407fe321be81286512f5258 assets\creategarf\blockstates\overstress_clutch.json
+65ccf166afad66cb2f8141e52c2bf204057e7d47 assets\creategarf\blockstates\centrifugal_clutch.json
+12d3a513b10b1e58bdaa36f2b6ac714afdad1df2 assets\creategarf\models\item\inverted_centrifugal_clutch.json
+7fad432dd28810bc4ee918f49ab0e04c0a234acb assets\creategarf\lang\en_ud.json
