@@ -40,3 +40,6 @@ replay_*.log
 *.jfr
 
 /src/main/generated/data/c/
+/.github/workflows/build.yml
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
