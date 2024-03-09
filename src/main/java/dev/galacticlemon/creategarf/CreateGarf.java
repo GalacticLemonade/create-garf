@@ -34,6 +34,10 @@ public class CreateGarf implements ModInitializer {
 		REGISTRATE.register();
 	}
 
+	public static ResourceLocation asResource(String path) {
+		return new ResourceLocation(MODID, path);
+	}
+
 	private void registerCreativeTab() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
 				new ResourceLocation(MODID, "tab"),

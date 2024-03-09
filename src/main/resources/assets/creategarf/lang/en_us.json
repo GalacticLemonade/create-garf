@@ -12,5 +12,8 @@
   "block.creategarf.inverted_centrifugal_clutch": "Inverted Centrifugal Clutch",
   "block.creategarf.freewheel_clutch": "Freewheel Clutch",
   "creategarf.centrifugal_clutch.speed_threshold": "Speed Threshold",
-  "creategarf.inverted_centrifugal_clutch.speed_threshold": "Speed Threshold"
+  "creategarf.inverted_centrifugal_clutch.speed_threshold": "Speed Threshold",
+  "creategarf.ponder.tag.kinetics": "Kinetic Blocks",
+  "creategarf.ponder.tag.kinetics.description": "Components which add onto Create's SU system.",
+  "creategarf.ponder.brake.header": "Brakes"
 }
