@@ -1,8 +1,19 @@
 {
-  "tab.creategarf.tab": "Create: Garf",
   "block.creategarf.brake": "Brake",
   "block.creategarf.centrifugal_clutch": "Centrifugal Clutch",
   "block.creategarf.freewheel_clutch": "Freewheel Clutch",
   "block.creategarf.inverted_centrifugal_clutch": "Inverted Centrifugal Clutch",
-  "block.creategarf.overstress_clutch": "Overstress Clutch"
+  "block.creategarf.overstress_clutch": "Overstress Clutch",
+  "block.creategarf.overstress_clutch.tooltip.behaviour1": "_Reset_ to coupled state.",
+  "block.creategarf.overstress_clutch.tooltip.condition1": "When R-Clicked with Wrench",
+  "block.creategarf.overstress_clutch.tooltip.summary": "A clutch that _uncouples_ after a set delay when the network is _overstressed_.",
+  "creategarf.centrifugal_clutch.speed_threshold": "Speed Threshold",
+  "creategarf.gui.overstress_clutch.uncoupled": "Uncoupled",
+  "creategarf.gui.overstress_clutch.uncoupled_explanation": "This clutch is _uncoupled_ due to stress. Fix the network before _resetting_ this clutch with a _wrench_ or a _redstone pulse_.",
+  "creategarf.inverted_centrifugal_clutch.speed_threshold": "Speed Threshold",
+  "creategarf.overstress_clutch.uncouple_delay": "Uncouple Delay",
+  "creategarf.ponder.brake.header": "Brakes",
+  "creategarf.ponder.tag.kinetics": "Kinetic Blocks",
+  "creategarf.ponder.tag.kinetics.description": "Components which add onto Create's SU system.",
+  "tab.creategarf.tab": "Create: Garf"
 }
