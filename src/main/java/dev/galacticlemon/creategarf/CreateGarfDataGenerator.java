@@ -16,10 +16,12 @@ public class CreateGarfDataGenerator implements DataGeneratorEntrypoint {
 		Path[] paths = Arrays.stream(System.getProperty("porting_lib.datagen.existing_resources").split(";")).map(Paths::get).toArray(Path[]::new);
 		ExistingFileHelper helper = ExistingFileHelper.withResources(paths);
 
+
 		Pack pack = generator.createPack();
 
 		CreateGarf.registrate().setupDatagen(pack, helper);
-		pack.addProvider(CreateGarfRecipes::new);
 
+		pack.addProvider(CreateGarfRecipes::new);
+		pack.addProvider(CreateGarfLangProvider::new);
 	}
 }
