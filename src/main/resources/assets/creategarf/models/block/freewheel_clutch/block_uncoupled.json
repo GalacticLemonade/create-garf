@@ -1,0 +1,7 @@
+{
+  "parent": "creategarf:block/freewheel_clutch/block",
+  "textures": {
+    "0": "creategarf:block/freewheel_clutch_on",
+    "particle": "creategarf:block/freewheel_clutch_on"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "creategarf:centrifugal_clutch"
+    }
+  ],
+  "result": {
+    "item": "creategarf:inverted_centrifugal_clutch"
+  }
+}
