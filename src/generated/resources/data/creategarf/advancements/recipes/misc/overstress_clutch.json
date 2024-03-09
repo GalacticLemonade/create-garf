@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "andesite_casing": {
+    "electron_tube": {
       "conditions": {
         "items": [
           {
             "items": [
-              "create:andesite_casing"
+              "create:electron_tube"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "creategarf:brake"
+        "recipe": "creategarf:overstress_clutch"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "andesite_casing",
+      "electron_tube",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "creategarf:brake"
+      "creategarf:overstress_clutch"
     ]
   },
   "sends_telemetry_event": false

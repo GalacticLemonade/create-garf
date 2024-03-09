@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "andesite_casing": {
+    "centrifugal_clutch": {
       "conditions": {
         "items": [
           {
             "items": [
-              "create:andesite_casing"
+              "creategarf:centrifugal_clutch"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "creategarf:brake"
+        "recipe": "creategarf:inverted_centrifugal_clutch"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "andesite_casing",
+      "centrifugal_clutch",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "creategarf:brake"
+      "creategarf:inverted_centrifugal_clutch"
     ]
   },
   "sends_telemetry_event": false
