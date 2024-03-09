@@ -10,7 +10,7 @@
 	"contact": {
 		"homepage": "https://galacticlemon.dev"
 	},
-	"license": "MIT",
+	"license": "CC0 1.0",
 	"icon": "assets/creategarf/icon.png",
 	"environment": "*",
 	"entrypoints": {
