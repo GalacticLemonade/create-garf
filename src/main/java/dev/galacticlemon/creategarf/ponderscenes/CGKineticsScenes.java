@@ -13,19 +13,30 @@ public class CGKineticsScenes {
         //init scene
         scene.title("brake", "Stopping networks using Brakes");
         scene.configureBasePlate(1, 1, 5);
-
-        //show base
         scene.world.showSection(util.select.layer(0), Direction.UP);
-        scene.world.showSection(util.select.layer(1), Direction.UP);
-        scene.world.showSection(util.select.layer(2), Direction.UP);
 
-        scene.world.showSection(util.select.position(2, 1, 2), Direction.UP);
+        BlockPos brakePos = util.grid.at(2, 1, 2);
+        Selection brake = util.select.position(brakePos);
+
+        BlockPos leverPos = util.grid.at(2,1,0);
 
         scene.idle(10);
+
+        for (int i = 5; i >= 1; i--) {
+            if (i == 2)
+                scene.rotateCameraY(70);
+            scene.idle(5);
+            scene.world.showSection(util.select.position(i, 1, 2), Direction.DOWN);
+        }
+
+        scene.world.setKineticSpeed(util.select.position(1, 1, 2), 64);
+
+        scene.effects.indicateSuccess(brakePos);
+        scene.idle(20);
         scene.overlay.showText(1000)
                 .placeNearTarget()
-                .text("Shafts will relay rotation in a straight line.")
-                .pointAt(util.vector.of(3, 1.5, 2.5));
+                .text("Brakes will relay rotation through them regularly")
+                .pointAt(util.vector.of(2, 1.5, 2.5));
 
         scene.idle(20);
         scene.markAsFinished();
