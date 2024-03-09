@@ -13,7 +13,7 @@ public class CreateGarfLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
         try {
-            Path existingFilePath = Path.of("D:/create-garf/src/main/resources/assets/creategarf/lang/en_us.json");
+            Path existingFilePath = Path.of("D:/create-garf/src/main/resources/assets/creategarf/lang/en_us_default.json");
             translationBuilder.add(existingFilePath);
         } catch (Exception e) {
             throw new RuntimeException("Failed to add existing language file!", e);

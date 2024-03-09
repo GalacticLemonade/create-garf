@@ -58,6 +58,15 @@ dependencies {
 	modRuntimeOnly "mezz.jei:jei-${minecraft_version}-fabric:${jei_version}"
 }
 
+sourceSets {
+	main {
+		resources {
+			srcDir("src/generated/resources")
+			exclude("src/generated/resources/.cache")
+		}
+	}
+}
+
 processResources {
 	inputs.property "version", project.version
 
@@ -70,15 +79,6 @@ processResources {
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
-}
-
-sourceSets {
-	main {
-		resources {
-			srcDir("src/generated/resources")
-			exclude("src/generated/resources/.cache")
-		}
-	}
 }
 
 loom {
