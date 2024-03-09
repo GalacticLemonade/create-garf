@@ -10,6 +10,7 @@
   "block.creategarf.brake": "Brake",
   "block.creategarf.centrifugal_clutch": "Centrifugal Clutch",
   "block.creategarf.inverted_centrifugal_clutch": "Inverted Centrifugal Clutch",
+  "block.creategarf.freewheel_clutch": "Freewheel Clutch",
   "creategarf.centrifugal_clutch.speed_threshold": "Speed Threshold",
   "creategarf.inverted_centrifugal_clutch.speed_threshold": "Speed Threshold"
 }

@@ -3,6 +3,7 @@ package dev.galacticlemon.creategarf;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
 import dev.galacticlemon.creategarf.content.brake.BrakeBlockEntity;
 import dev.galacticlemon.creategarf.content.centrifugalclutch.CentrifugalClutchBlockEntity;
+import dev.galacticlemon.creategarf.content.freewheelclutch.FreewheelClutchBlockEntity;
 import dev.galacticlemon.creategarf.content.invertedcentrifugalclutch.InvertedCentrifugalClutchBlockEntity;
 import dev.galacticlemon.creategarf.content.overstressclutch.OverstressClutchBlockEntity;
 import com.simibubi.create.content.decoration.copycat.CopycatBlockEntity;
@@ -48,5 +49,11 @@ public class CreateGarfBlockEntities {
             .renderer(() -> SplitShaftRenderer::new)
             .register();
 
+    public static final BlockEntityEntry<FreewheelClutchBlockEntity> FREEWHEEL_CLUTCH = REGISTRATE
+            .blockEntity("freewheel_clutch", FreewheelClutchBlockEntity::new)
+            .instance(() -> SplitShaftInstance::new, false)
+            .validBlocks(CreateGarfBlocks.FREEWHEEL_CLUTCH)
+            .renderer(() -> SplitShaftRenderer::new)
+            .register();
     public static void load() {  }
 }

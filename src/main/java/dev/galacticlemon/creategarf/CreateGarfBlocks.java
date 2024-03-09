@@ -7,6 +7,7 @@ import com.tterrag.registrate.providers.RegistrateBlockstateProvider;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import dev.galacticlemon.creategarf.content.brake.BrakeBlock;
 import dev.galacticlemon.creategarf.content.centrifugalclutch.CentrifugalClutchBlock;
+import dev.galacticlemon.creategarf.content.freewheelclutch.FreewheelClutchBlock;
 import dev.galacticlemon.creategarf.content.invertedcentrifugalclutch.InvertedCentrifugalClutchBlock;
 import dev.galacticlemon.creategarf.content.overstressclutch.OverstressClutchBlock;
 import io.github.fabricators_of_create.porting_lib.models.generators.ModelFile;
@@ -83,6 +84,17 @@ public class CreateGarfBlocks {
             .transform(BlockStressDefaults.setNoImpact())
             .transform(axeOrPickaxe())
             .blockstate((c, p) -> p.directionalBlock(c.get(), forBoolean(c, state -> state.getValue(InvertedCentrifugalClutchBlock.UNCOUPLED), "uncoupled", p)))
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<FreewheelClutchBlock> FREEWHEEL_CLUTCH = REGISTRATE.block("freewheel_clutch", FreewheelClutchBlock::new)
+            .initialProperties(SharedProperties::stone)
+            .properties(p -> p.noOcclusion().mapColor(MapColor.PODZOL))
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(BlockStressDefaults.setNoImpact())
+            .transform(axeOrPickaxe())
+            .blockstate((c, p) -> p.directionalBlock(c.get(), forBoolean(c, state -> state.getValue(FreewheelClutchBlock.UNCOUPLED), "uncoupled", p)))
             .item()
             .transform(customItemModel())
             .register();
