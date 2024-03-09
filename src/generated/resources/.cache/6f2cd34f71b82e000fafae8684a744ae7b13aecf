@@ -1,8 +1,8 @@
-// 1.20.1	2024-03-09T11:31:01.2444226	Create: Garf/Recipes
+// 1.20.1	2024-03-09T12:41:27.8516706	Create: Garf/Recipes
 218f98332d63fba345c81172d12287281dd43f66 data\creategarf\recipes\inverted_centrifugal_clutch.json
 830a16f9b2453fcecae79f874eba92c9dcc380a6 data\creategarf\recipes\freewheel_clutch.json
-bd70240375e35774eca62cada577036ef929580b data\creategarf\recipes\overstress_clutch.json
 8dde5337e5109b2f739ca3c6c8cff1a7ec3795ff data\creategarf\advancements\recipes\misc\freewheel_clutch.json
+bd70240375e35774eca62cada577036ef929580b data\creategarf\recipes\overstress_clutch.json
 850008383b557de6ec3952e358d957c8f630baac data\creategarf\recipes\centrifugal_clutch.json
 005a6fce4f865a05ad179c9cd7332c43cbc6f57f data\creategarf\advancements\recipes\misc\brake.json
 f75793a39787134e59b2f275d1f29c75a562d6dd data\creategarf\advancements\recipes\misc\centrifugal_clutch.json
