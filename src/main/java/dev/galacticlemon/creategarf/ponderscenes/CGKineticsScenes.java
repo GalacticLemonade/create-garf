@@ -41,4 +41,12 @@ public class CGKineticsScenes {
         scene.idle(20);
         scene.markAsFinished();
     }
+
+    public static void freewheel_clutch(SceneBuilder scene, SceneBuildingUtil util) {
+        //init scene
+        scene.title("freewheel_clutch", "Rotation");
+        scene.configureBasePlate(1, 1, 5);
+        scene.world.showSection(util.select.layer(0), Direction.UP);
+        scene.world.showSection(util.select.layer(1), Direction.UP);
+    }
 }

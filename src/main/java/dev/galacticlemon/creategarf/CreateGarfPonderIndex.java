@@ -14,5 +14,8 @@ public class CreateGarfPonderIndex {
 
         HELPER.forComponents(CreateGarfBlocks.BRAKE)
                 .addStoryBoard("brake", CGKineticsScenes::brake, CreateGarfPonderTags.KINETIC);
+
+        HELPER.forComponents(CreateGarfBlocks.FREEWHEEL_CLUTCH)
+                .addStoryBoard("freewheel_clutch", CGKineticsScenes::freewheel_clutch, CreateGarfPonderTags.KINETIC);
     }
 }
