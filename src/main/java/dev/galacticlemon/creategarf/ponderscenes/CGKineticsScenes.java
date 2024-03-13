@@ -35,7 +35,7 @@ public class CGKineticsScenes {
         scene.idle(20);
         scene.overlay.showText(1000)
                 .placeNearTarget()
-                .text("Brakes will relay rotation through them regularly")
+                .text("Brakes will pass rotation through them regularly")
                 .pointAt(util.vector.of(2, 1.5, 2.5));
 
         scene.idle(20);
