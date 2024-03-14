@@ -19,6 +19,7 @@ public class CGKineticsScenes {
         Selection brake = util.select.position(brakePos);
 
         BlockPos leverPos = util.grid.at(2,1,0);
+        Selection lever = util.select.position(leverPos);
 
         scene.idle(10);
 
@@ -33,12 +34,18 @@ public class CGKineticsScenes {
 
         scene.effects.indicateSuccess(brakePos);
         scene.idle(20);
-        scene.overlay.showText(1000)
+        scene.overlay.showText(10)
                 .placeNearTarget()
-                .text("Brakes will pass rotation through them regularly")
+                .text("Brakes will pass rotation through them regularly...")
                 .pointAt(util.vector.of(2, 1.5, 2.5));
 
-        scene.idle(20);
+        scene.idle(50);
+
+        scene.overlay.showText(1000)
+                .placeNearTarget()
+                .text("Once activated with redstone, it overstresses the network.")
+                .pointAt(util.vector.of(2, 1.5, 2.5));
+
         scene.markAsFinished();
     }
 

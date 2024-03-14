@@ -1,6 +1,7 @@
 package dev.galacticlemon.creategarf;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.simibubi.create.foundation.ponder.PonderLocalization;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -26,6 +27,8 @@ public class CreateGarf implements ModInitializer {
 		LOGGER.info("Hello 1.20.1 Create!");
 
 		registerCreativeTab();
+
+		PonderLocalization.provideRegistrateLang(CreateGarf.REGISTRATE);
 
 		CreateGarfBlocks.load();
 		CreateGarfBlockEntities.load();
