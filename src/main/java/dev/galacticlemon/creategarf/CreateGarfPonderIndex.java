@@ -12,10 +12,10 @@ public class CreateGarfPonderIndex {
         //(!) added entries require re-launch
         //(!) modifications inside storyboard methods only require re-opening the ui
 
-        HELPER.forComponents(CreateGarfBlocks.BRAKE)
-                .addStoryBoard("brake", CGKineticsScenes::brake, CreateGarfPonderTags.KINETIC);
+        //HELPER.forComponents(CreateGarfBlocks.BRAKE)
+                //.addStoryBoard("brake", CGKineticsScenes::brake, CreateGarfPonderTags.KINETIC);
 
-        HELPER.forComponents(CreateGarfBlocks.FREEWHEEL_CLUTCH)
-                .addStoryBoard("freewheel_clutch", CGKineticsScenes::freewheel_clutch, CreateGarfPonderTags.KINETIC);
+        //HELPER.forComponents(CreateGarfBlocks.FREEWHEEL_CLUTCH)
+                //.addStoryBoard("freewheel_clutch", CGKineticsScenes::freewheel_clutch, CreateGarfPonderTags.KINETIC);
     }
 }
